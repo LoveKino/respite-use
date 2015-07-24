@@ -19,7 +19,7 @@ The goal of using this tool is to simplify mobile page debugging process.
 usage
 -----------------------------------
 * connect mobile to agent server.<br>
-* lanch "respite-use".<br>
+* launch "respite-use".<br>
 
 get tool
 -----------------------------------
@@ -31,3 +31,19 @@ Check config.js, you do not need to modify attributions mostly. You need to watc
 2. Other situations set active as node.<br>
 3. Debug's chrome confaguration, launchPath is chrome's app or exe path. When set autoRun false, chrome won't start first.<br>
 4. Configurate your debugging page's domain in debugDomains.<br>
+
+self defined page handler
+------------------------------------
+You can set a set of js path in pageHandlers of config. These jses used to handle html content.<br>
+
+* Interface norm<br>
+module.exports = {
+	handle: function(body, config) {
+		return body;
+	}
+}
+*body        html content<br>
+*config      config object<br>
+*@return     new html content<br> 
+
+
