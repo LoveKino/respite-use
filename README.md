@@ -37,13 +37,15 @@ self defined page handler
 You can set a set of js path in pageHandlers of config. These jses used to handle html content.<br>
 
 * Interface norm<br>
+```
+*body        html content<br>
+*config      config object<br>
+*@return     new html content<br> 
 module.exports = {
 	handle: function(body, config) {
 		return body;
 	}
 }
-*body        html content<br>
-*config      config object<br>
-*@return     new html content<br> 
+```
 
 
