@@ -30,6 +30,7 @@ module.exports = {
 	},
 
 	debugDomains: [
-		"waimai.baidu.com"
+		"waimai.baidu.com",
+		"cp01-ocean-728.epc.baidu.com"
 	]
 }
