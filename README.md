@@ -26,4 +26,8 @@ get tool
 ### download
 download and decompression.
 ### modify config.js
-Check config.js
+Check config.js, you do not need to modify attributions mostly. You need to watch out these points:<br>
+1. If your operarion is window, you can (and you want) use fiddler as a agent server. Assign proxy's active as fiddler. Configurate scriptPath and launchPath. ScriptPath is fiddler's attach/detach's script path.<br>
+2. Other situations set active as node.<br>
+3. Debug's chrome confaguration, launchPath is chrome's app or exe path. When set autoRun false, chrome won't start first.<br>
+4. Configurate your debugging page's domain in debugDomains.<br>
