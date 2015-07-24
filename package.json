@@ -1,0 +1,28 @@
+{
+  "name": "respite-use",
+  "version": "0.0.1",
+  "description": "scaffold for mobile page debugger",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {},
+  "keywords": [
+    "mobile",
+    "debugger",
+    "fiddler",
+    "chrome",
+    "proxy"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "ddchen",
+    "email": "842914439@qq.com"
+  }
+}
