@@ -4,7 +4,7 @@ scaffold for mobile page debugger
 
 background
 -----------------------------------
-weinre: http://people.apache.org/~pmuellr/weinre/docs/latest/Home.html<br>
+weinre: http://people.apache.org/~pmuellr/weinre/docs/latest/Home.html<br><br>
 Debugging mobile web page is kind of toublesome. Usually, we do it like this:<br>
 step1: lanuch weinre.<br>
 step2: lanuch fiddler.<br>
