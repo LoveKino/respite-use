@@ -24,7 +24,7 @@ module.exports = {
 			port: 8088
 		},
 		chrome: {
-			launchPath: "C:/Program Files (x86)/Google/Chrome/Application/chrome.exe",
+			launchPath: "/Applications/Google Chrome.app",
 			autoRun: true
 		}
 	},
