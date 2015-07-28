@@ -38,9 +38,9 @@ You can set a set of js path in pageHandlers of config. These jses used to handl
 
 * Interface norm<br>
 ```
-*body        html content<br>
-*config      config object<br>
-*@return     new html content<br> 
+*body        html content
+*config      config object
+*@return     new html content
 module.exports = {
 	handle: function(body, config) {
 		return body;
